@@ -11,7 +11,7 @@ class uploadTest extends TestCase {
     /**
      *  Initialize an array to mimic the properties $_FILES global
      */
-    public function setUp() : void {
+    public function setUp() {
       $files = array(
           'ikea' => array(
               'name' => __DIR__ . "/fixture/monkey.jpg",
@@ -128,6 +128,7 @@ public function testImageDimensionFailWithMsg () {
   $this->bulletproof->upload();
     $this->assertEquals($this->bulletproof->getError(), 'Image should be smaller than 43px in height, and smaller than 42px in width');
 }
+
 
 
 }
