@@ -1,5 +1,5 @@
 {
-    "name":"samayo/bulletproof",
+    "name":"framixa-com/bulletproof",
     "description":"A simple and secure PHP image uploader",
     "keywords":[
        "image",
@@ -12,10 +12,13 @@
     "authors":[
        {
           "name":"samayo"
+       },
+       {
+          "name":"framixa"
        }
     ],
     "require":{
-       "php":">=8.1.0",
+       "php":">=7.4",
        "ext-exif":"*"
     },
     "require-dev":{
@@ -32,3 +35,4 @@
        }
     }
  }
+
